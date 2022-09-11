@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+    <meta charset="utf-8" /> 
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,500;1,8..144,300&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/76789626fc.js" crossorigin="anonymous"></script>
+    
+    <link rel="shortcut icon" href="#">
+    <link type="text/css" href="./static/style.css" rel="stylesheet" >
+    <title>Persimmon</title>
+</head>
+
+
+<body>
+    <header>
+        <!--------------------NAVBAR -->
+        <nav class="nav-fixed nav--scrolled">
+            <div class="navbar nav-content">
+                <div class="menu-bar" >
+                    <i class="fa-solid fa-bars"></i>
+                    <p>CATALOG</p>
+                    <p class="map">LOCATIONS</p>
+                </div>
+                <h1>Persimmon</h1>
+                <ul>
+                    <li><i class="fa-light fa-magnifying-glass" id="search-btn"></i></li>
+                    <li><i class="fa-light fa-user"></i></li>
+                    <li><i class="fa-light fa-heart"></i></li>
+                    <li><i class="fa-light fa-cart-arrow-down" id="cart-btn"></i></li>
+                </ul>
+            </div>
+            <!--------------------SEARCH-FORM -->
+            <div class="search-form">
+                <input type="search" id="search-box" placeholder="search here...">
+                <label for="search-box"  class="fa-solid fa-magnifying-glass"></label>
+            </div>
+            <!--------------------SEARCH-FORM ENDS-->
+            <!--------------------CART-ITEMS -->
+            <div class="cart">
+                <div class="cart-header">
+                    <p>CART</p>
+                    <span class="fas fa-times" id="hide"></span>
+                </div>
+
+                <div class="cart-items-container">
+                    <!-- <div class="cart-item" data-id="8">
+                        <span class="fas fa-times" id="delete"></span>
+                        <img src="../img/shop3-4.jpg" alt="">
+                        <div class="content">
+                            <h3>cart item 01</h3>
+                            <div class="price">$15.99</div>
+                            <p>XL</p>
+                        </div>
+                        <div class="counter">
+                            <div class="items-control" data-action="minus">-</div>
+                            <div class="items-current" data-counter="">1</div>
+                            <div class="items-control" data-action="plus">+</div>
+                        </div>
+                    </div> -->
+                    
+                </div>
+                <div class="total">
+                    <h3>Total:</h3>
+                    <p class="total-price">400$</p>
+                </div>
+                <div class="cart-button">
+                    <a href="#" class="btn">CHECK-OUT NOW</a>
+                </div>
+            </div>
+
+                    
+            <!--------------------CART-ITEMS ENDS-->
+        </nav>
+        
+        <!--------------------NAVBAR ENDS-->
+                
+
+
+        
+
+
+        
+            
+        <!--------------------BANNER-->
+        <div class="main-banner" id="main-banner">
+            <div class="imgban" id="imgban3">
+            
+            </div>
+
+            <div class="imgban" id="imgban2">
+                
+            </div>
+
+            <div class="imgban" id="imgban1">
+                
+            </div>
+        </div>
+        <!--------------------BANNER ENDS-->
+    </header>
+
+
+    <!--------------------SEASONS-->
+    <section class="seasons">
+        <h1>CHOOSE YOUR SEASON</h1>
+        <p>More Than 1000 Models For Every Season</p>
+  
+        <div class="row">
+          <div class="season-col">
+            <img src="../static/img/winter.jpg">
+            <div class="layer layer-winter">
+              <h3>WINTER</h3>
+            </div>
+          </div>
+          <div class="season-col">
+            <img src="../static/img/spring.jpg">
+            <div class="layer layer-spring">
+              <h3>SPRING/AUTUMN</h3>
+            </div>
+          </div>
+          <div class="season-col">
+            <img src="./static/img/summer.jpg">
+            <div class="layer layer-summer">
+              <h3>SUMMER</h3>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!--------------------SEASONS ENDS-->
+
+
+    <!--------------------SHOP -->
+    <section class="shop-container">
+        <h2>shop</h2>
+
+        <div class="shop">
+
+            <div class="shop-flex">
+                <div class="shop-item" data-id="01">
+                    <img class= "productimg" src="../static/img/shop1.jpg">
+                    <div class="shop-layer">
+                        <button data-cart type="button" class="shop-item-btn">ADD TO CART</button>
+                        <ul class="sizes">
+                            <li class="option" >XS</li>
+                            <li class="option" >S</li>
+                            <li class="option" >M</li>
+                            <li class="option" >L</li>
+                            <li class="option" >XL</li>
+                        </ul>
+                    </div>   
+                    <div class="shop-info">
+                        <p class="item-title">Hoodie</p>
+                        <p class="item-price">85$</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="shop-flex">
+                <div class="shop-item" data-id="02">
+                    <img class= "productimg" src="../static/img/shop1-2.jpg">
+                    <div class="shop-layer">
+                        <button data-cart type="button" class="shop-item-btn">ADD TO CART</button>
+                        <ul class="sizes">
+                            <li class="option" >XS</li>
+                            <li class="option" >S</li>
+                            <li class="option" >M</li>
+                            <li class="option" >L</li>
+                            <li class="option" >XL</li>
+                        </ul>
+                    </div>   
+                    <div class="shop-info">
+                        <p class="item-title">Sneakers</p>
+                        <p class="item-price">119$</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="shop-flex">
+                <div class="shop-item" data-id="03">
+                    <img class= "productimg" src="../static/img/shop1-3.jpg">
+                    <div class="shop-layer">
+                        <button data-cart type="button" class="shop-item-btn">ADD TO CART</button>
+                        <ul class="sizes">
+                            <li class="option" >XS</li>
+                            <li class="option" >S</li>
+                            <li class="option" >M</li>
+                            <li class="option" >L</li>
+                            <li class="option" >XL</li>
+                        </ul>
+                    </div>   
+                    <div class="shop-info">
+                        <p class="item-title">Skirt</p>
+                        <p class="item-price">88$</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="shop-flex">
+                <div class="shop-item" data-id="04">
+                    <img class= "productimg" src="../static/img/shop1-4.jpg">
+                    <div class="shop-layer">
+                        <button data-cart type="button" class="shop-item-btn">ADD TO CART</button>
+                        <ul class="sizes">
+                            <li class="option" >XS</li>
+                            <li class="option" >S</li>
+                            <li class="option" >M</li>
+                            <li class="option" >L</li>
+                            <li class="option" >XL</li>
+                        </ul>
+                    </div>   
+                    <div class="shop-info">
+                        <p class="item-title">Blouse</p>
+                        <p class="item-price">45$</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shop-flex">
+                <div class="shop-item" data-id="05">
+                    <img class= "productimg" src="../static/img/shop2.jpg">
+                    <div class="shop-layer">
+                        <button data-cart type="button" class="shop-item-btn" >ADD TO CART</button>
+                        <ul class="sizes">
+                            <li class="option" >XS</li>
+                            <li class="option" >S</li>
+                            <li class="option" >M</li>
+                            <li class="option" >L</li>
+                            <li class="option" >XL</li>
+                        </ul>
+                    </div>   
+                    <div class="shop-info">
+                        <p class="item-title">Jeans</p>
+                        <p class="item-price">99$</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="shop-flex">
+                <div class="shop-item" data-id="06">
+                    <img class= "productimg" src="../static/img/shop3.jpg">
+                    <div class="shop-layer">
+                        <button data-cart type="button" class="shop-item-btn">ADD TO CART</button>
+                        <ul class="sizes">
+                            <li class="option" >XS</li>
+                            <li class="option" >S</li>
+                            <li class="option" >M</li>
+                            <li class="option" >L</li>
+                            <li class="option" >XL</li>
+                        </ul>
+                    </div>   
+                    <div class="shop-info">
+                        <p class="item-title">T-Shirt</p>
+                        <p class="item-price">39$</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="shop-flex">
+                <div class="shop-item" data-id="07">
+                    <img class= "productimg" src="../static/img/shop3-3.jpg">
+                    <div class="shop-layer">
+                        <button data-cart type="button" class="shop-item-btn">ADD TO CART</button>
+                        <ul class="sizes">
+                            <li class="option" >XS</li>
+                            <li class="option" >S</li>
+                            <li class="option" >M</li>
+                            <li class="option" >L</li>
+                            <li class="option" >XL</li>
+                        </ul>
+                    </div>   
+                    <div class="shop-info">
+                        <p class="item-title">Hoodie</p>
+                        <p class="item-price">183$</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="shop-flex">
+                <div class="shop-item" data-id="08">
+                    <img class= "productimg" src="../static/img/shop3-4.jpg">
+                    <div class="shop-layer">
+                        <button data-cart type="button" class="shop-item-btn">ADD TO CART</button>
+                        <ul class="sizes">
+                            <li class="option" >XS</li>
+                            <li class="option" >S</li>
+                            <li class="option" >M</li>
+                            <li class="option" >L</li>
+                            <li class="option" >XL</li>
+                        </ul>
+                    </div>   
+                    <div class="shop-info">
+                        <p class="item-title">Dress</p>
+                        <p class="item-price">280$</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+
+    </section>
+    <!--------------------SHOP ENDS-->
+    
+
+    <!--------------------TEXT -->
+    <section class="about-us"> 
+        <div class="text">
+            <h2>dolor <a href="#main-banner">Persimmon</a>  amet.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis itaque provident facere sed fugiat minima.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo ut atque ratione ipsum quasi dicta voluptatibus asperiores beatae maiores mollitia, repudiandae quae impedit, velit veritatis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium consequuntur dolor, corrupti eaque eos commodi nisi minima expedita eius suscipit atque explicabo totam delectus pariatur ex, natus saepe. Quae iusto porro, magni cum temporibus quasi velit voluptatibus repudiandae inventore mollitia excepturi eveniet? Ad, voluptas delectus.</p>
+            <p>3 ipsum dolor sit amet consectetur ADIPISICING:
+                <ul>
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                </ul>
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat accusantium </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptas ducimus accusantium fugiat voluptate ex quam doloremque placeat maiores iusto adipisci atque recusandae porro, eligendi sunt, quisquam culpa et accusamus. Voluptatum ut similique neque hic repellat!</p>
+            <p>Lorem, ipsum dolor.</p>
+        </div>
+    </section>
+    <!--------------------TEXT ENDS-->
+
+
+    <!--------------------FOOTER-->
+    <footer class="footer" id="end">
+        <p>Questions? Call 1-866-579-7172</p>
+        <div class="footer-cols">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Relations</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="#">Originals</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Terms Of Use</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Redeem Gift Cards</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Test</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Media Center</a></li>
+                <li><a href="#">Buy Gift Cards</a></li>
+                <li><a href="#">Preferences</a></li>
+                <li><a href="#">Legal Notices</a></li>
+            </ul>
+        </div>
+        <div class="social-media">
+            <ul>
+               <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+               <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+            </ul>
+        </div>
+        <p>&copy Islam Zeynalov All Rights Reserved</p>
+    </footer>
+    
+    <!--------------------FOOTER ENDS-->
+
+
+
+
+
+    
+    <script src="./static/app.js"></script>
+    </body>
+    </html>
+    
+
+
+  
+  
+
+
+
+    
+    
+
+
