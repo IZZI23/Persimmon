@@ -1,7 +1,7 @@
 # Persimmon 
 ## E-Commerce Demo
 The very first project for my portfolio.
-I've worked with
+I've worked with:
 - HTML5 
 - CSS3 (Custom CSS, Grid, Flexbox) 
 - JS(ES6)
