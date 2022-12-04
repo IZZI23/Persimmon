@@ -1,5 +1,5 @@
-# E-Commerce Demo
-## Persimmon
+# Persimmon 
+## E-Commerce Demo
 The very first project for my portfolio.
 I've worked with
 - HTML5 
